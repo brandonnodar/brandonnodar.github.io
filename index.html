@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./index.css" />
+        <link rel="stylesheet" type="text/css" href="./animate.css" />
+    </head>
+
+    <body>
+        <!-- NAVBAR -->
+        <div class="navbar animate__animated animate__fadeIn animate__slower">
+            <h1>Brandon Nodar</h1>
+            <div class="social-icon-container">
+                <a
+                    href="https://drive.google.com/file/d/1-5Wl7LlRH6DKGyOfd6d4k5MQB-FWvz8f/view?usp=sharing"
+                    target="_blank"
+                    ><img class="social-icon" src="./images/icons/cv.png"
+                /></a>
+                <a
+                    href="https://github.com/brandonnodar?tab=repositories"
+                    target="_blank"
+                    ><img class="social-icon" src="./images/icons/github.png"
+                /></a>
+                <a
+                    href="https://www.linkedin.com/in/brandon-nodar-978608bb"
+                    target="_blank"
+                    ><img class="social-icon" src="./images/icons/linkedin.png"
+                /></a>
+            </div>
+        </div>
+
+        <!-- PROJECTS -->
+
+        <!-- missile racer-->
+        <div class="projects-container">
+            <div class="animate__animated animate__backInLeft">
+                <img
+                    class="prev-img"
+                    style="width: 500px;"
+                    src="./images/prev_imgs/missileracer.gif"
+                />
+                <h1 id="mr-title" class="animate__animated animate__flipInX animate__delay-1s">Missile Racer</h1>
+                <div class="project-buttons animate__animated animate__fadeInDown animate__delay-1s">
+                    <button class="video-button">
+                        <a href="https://youtu.be/rw_8OZIirFA" target="_blank">VIDEO TRAILER</a>
+                    </button>
+                    <button class="code-button">
+                        <a href="" target="_blank">CODE</a>
+                    </button>
+                </div>
+                <ul class="animate__animated animate__fadeInUp animate__delay-1s project-list">
+                    <li class="animate__animated animate__pulse animate__repeat-3 animate__delay-2s">
+                        &#127942 1.5 year long project, my proudest achievement. &#127942
+                    </li>
+                    <li>Written in C# Unity3D for PC/Mac.</li>
+                    <li>Microsoft Playfab API for online leaderboards.</li>
+                    <li>Race against an AI opponent on 30 tracks.</li>
+                    <li>
+                        Garage for customizing and upgrading your missiles.
+                    </li>
+                    <li>Artwork, and music also built myself.</li>
+                </ul>
+            </div>
+
+            <!-- reddit bot: online users tracker -->
+            <div class="animate__animated animate__backInRight">
+                <img
+                    class="prev-img"
+                    style="width: 500px;"
+                    src="./images/prev_imgs/reddit_online_users.png"
+                />
+                <h1 class="reddit-bot-title animate__animated animate__flipInX animate__delay-1s">
+                    Reddit Bot: Online Users
+                </h1>
+                <div class="project-buttons animate__animated animate__fadeInDown animate__delay-1s">
+                    <button class="code-button">
+                        <a
+                            href="https://github.com/brandonnodar/RedditBot_OnlineUsers"
+                            target="_blank"
+                            >CODE</a
+                        >
+                    </button>
+                </div>
+                <ul class="project-list animate__animated animate__fadeInUp animate__delay-1s">
+                    <li>Written in Python</li>
+                    <li>Utilizes the Reddit API.</li>
+                    <li>Tracks the number of online users over time.</li>
+                    <li>
+                        Graphs data using MatPlotLib.
+                    </li>
+                </ul>
+            </div>
+
+            <!-- lenovo batch warranty collector -->
+            <div class="animate__animated animate__backInLeft">
+                <img
+                    class="prev-img"
+                    style="width: 500px;"
+                    src="./images/prev_imgs/lenovo.png"
+                />
+                <h1 id="lenovo-title" class="animate__animated animate__flipInX animate__delay-1s">Lenovo Batch Warranty Collector</h1>
+                <div class="project-buttons animate__animated animate__fadeInDown animate__delay-1s">
+                    <button class="code-button">
+                        <a
+                            href="https://github.com/brandonnodar/Lenovo_BatchWarranty_EndDates"
+                            target="_blank"
+                            >CODE</a
+                        >
+                    </button>
+                </div>
+                <ul class="project-list animate__animated animate__fadeInUp animate__delay-1s">
+                    <li>Written in PowerShell.</li>
+                    <li>Utilizes the Lenovo REST API.</li>
+                    <li>
+                        Looks up warranty end dates from a given spreadsheet.
+                    </li>
+                    <li>Returns warranty data to the spreadsheet.</li>
+                </ul>
+            </div>
+
+            <!-- reddit bot: top daily posts -->
+            <div class="animate__animated animate__backInRight">
+                <img
+                    class="prev-img"
+                    style="width: 500px;"
+                    src="./images/prev_imgs/reddit_post_upvotes.png"
+                />
+                <h1 class="reddit-bot-title animate__animated animate__flipInX animate__delay-1s">Reddit Bot: Top Daily Posts</h1>
+                <div class="project-buttons animate__animated animate__fadeInDown animate__delay-1s">
+                    <button class="code-button">
+                        <a
+                            href="https://github.com/brandonnodar/RedditBot_PostsUpVotesGrabber"
+                            target="_blank"
+                            >CODE</a
+                        >
+                    </button>
+                </div>
+                <ul class="project-list animate__animated animate__fadeInUp animate__delay-1s">
+                    <li>Written in Python.</li>
+                    <li>Utilizes the Reddit API.</li>
+                    <li>
+                        Collects daily top posts by upvotes, and time uploaded.
+                    </li>
+                    <li>Graphs data using MatPlotLib.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div></div>
+
+        <!--
+        <div class="container">
+            <div class="content-container">
+                
+                
+                
+            </div>
+
+            <div class="footer">
+                <div>
+                    <img class="social-icon"
+                    src={require("./assets/icons/github.png")} /> <img
+                    class="social-icon"
+                    src={require("./assets/icons/linkedin.png")} />
+                </div>
+                <p>Contact: brandonnodar@gmail.com</p>
+                <p>Created by Brandon Nodar using Javascript, and ReactJS</p>
+            </div>
+        </div>
+    --></body>
+</html>

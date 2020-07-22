@@ -1,0 +1,170 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap"); /* Montserrat */
+
+@media screen and (min-width: 500px) {
+    .projects-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .projects-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+a {
+    cursor: pointer;
+}
+
+html,
+body {
+    background-color: #ffffff;
+    margin: auto;
+    max-width: 100%;
+    font-family: "Montserrat", "sans-serif";
+    font-weight: 300;
+}
+
+/* NAVBAR */
+.navbar {
+    display: grid;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+.navbar > h1 {
+    text-align: center;
+    margin-top: 0;
+
+    font-weight: 300;
+}
+
+.social-icon-container {
+    text-align: center;
+}
+
+.social-icon {
+    width: 30px;
+    margin: -20px 10px 0 10px;
+}
+
+/* PROJECTS */
+.projects-container {
+    display: grid;
+    column-gap: 0.35em;
+    row-gap: 2em;
+    justify-content: center;
+    margin: 10px 12% 10px 12%;
+    margin: auto;
+    max-width: 60%;
+
+    font-size: 1em;
+}
+
+.projects-container > div {
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    max-height: 700px;
+}
+
+.projects-container > div > h1 {
+    text-align: center;
+    margin: 5px 0 5px 0;
+    border-radius: 0.1em;
+    font-size: 1.7em;
+    padding: 5px;
+}
+
+.prev-img {
+    display: block;
+    margin: 10px auto 0 auto;
+    border-radius: 0.2em;
+    box-shadow: 5px 5px 10px #e0e0e0;
+}
+
+/* PROJECT TITLES */
+#mr-title {
+    border: 1px red solid;
+    color: red;
+    box-shadow: inset 10px 2px 0px 0px red;
+}
+
+.reddit-bot-title {
+    border: 1px #ff7300 solid;
+    color: #ff7300;
+    box-shadow: inset 10px 2px 0px 0px #ff7300;
+}
+
+#bow-golf-title {
+    border: 1px #00a1ff solid;
+    color: #00a1ff;
+    box-shadow: inset 10px 2px 0px 0px #00a1ff;
+}
+
+#lenovo-title {
+    border: 1px red solid;
+    color: red;
+    box-shadow: inset 10px 2px 0px 0px red;
+}
+
+/* PROJECT BUTTONS */
+.project-buttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.project-buttons > button {
+    display: inline-block;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.project-buttons > button:active {
+    position: relative;
+    top: 1px;
+}
+
+.project-buttons > button > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.video-button {
+    background: linear-gradient(to bottom, #eeeb21 5%, #fffb1d 100%);
+    border: 1px solid #9e9c1f;
+    box-shadow: inset 1px 1px 0px 0px #fffec9;
+}
+
+.video-button:hover {
+    background: linear-gradient(to bottom, #fffb1d 5%, #eeeb21 100%);
+}
+
+.code-button {
+    background: linear-gradient(to bottom, #1eb671 5%, #1bc076 100%);
+    border: 1px solid #1d9961;
+    box-shadow: inset 1px 1px 0px 0px #9acc85;
+    color: white;
+}
+
+.code-button:hover {
+    background: linear-gradient(to bottom, #2eca84 5%, #04ea83 100%);
+}
+
+/* PROJECT LIST */
+.project-list {
+    text-align: center;
+    list-style-type: none;
+    margin: 25px 0 0 0;
+    padding: 0;
+}
+
+project.list > li {
+    margin-top: 5px;
+}
